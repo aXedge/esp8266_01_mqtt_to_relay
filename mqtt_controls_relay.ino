@@ -85,8 +85,8 @@ Adafruit_MQTT_Publish ap = Adafruit_MQTT_Publish(&mqtt, ARB_FEED);
 //ref: https://io.adafruit.com/api/docs/mqtt.html#adafruit-io-mqtt-api
 
 //// Notice MQTT paths for AIO follow the form: <username>/feeds/<feedname>
-Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME AIO_MQTT_FEED_ONOFFSWITCH);
-//Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME AIO_MQTT_FEED_ONOFFSWITCH, MQTT_QOS_1);
+Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME AIO_MQTT_FEED_ONOFFBUTTON);
+//Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME AIO_MQTT_FEED_ONOFFBUTTON, MQTT_QOS_1);
 
 /*************************** Sketch Code ************************************/
 
